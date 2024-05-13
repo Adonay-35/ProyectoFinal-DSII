@@ -1,0 +1,33 @@
+C:\Users\HP\Desktop\SPCRUD\SesionManager\bin\Debug\SesionManager.dll
+C:\Users\HP\Desktop\SPCRUD\SesionManager\bin\Debug\SesionManager.pdb
+C:\Users\HP\Desktop\SPCRUD\SesionManager\bin\Debug\DataLayer.dll
+C:\Users\HP\Desktop\SPCRUD\SesionManager\bin\Debug\MySql.Data.dll
+C:\Users\HP\Desktop\SPCRUD\SesionManager\bin\Debug\DataLayer.pdb
+C:\Users\HP\Desktop\SPCRUD\SesionManager\bin\Debug\DataLayer.dll.config
+C:\Users\HP\Desktop\SPCRUD\SesionManager\obj\Debug\SesionManager.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\SPCRUD\SesionManager\obj\Debug\SesionManager.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\SPCRUD\SesionManager\obj\Debug\SesionManager.csproj.CopyComplete
+C:\Users\HP\Desktop\SPCRUD\SesionManager\obj\Debug\SesionManager.dll
+C:\Users\HP\Desktop\SPCRUD\SesionManager\obj\Debug\SesionManager.pdb
+C:\Users\HP\Desktop\PROYECTO\SesionManager\bin\Debug\SesionManager.dll
+C:\Users\HP\Desktop\PROYECTO\SesionManager\bin\Debug\SesionManager.pdb
+C:\Users\HP\Desktop\PROYECTO\SesionManager\bin\Debug\DataLayer.dll
+C:\Users\HP\Desktop\PROYECTO\SesionManager\bin\Debug\MySql.Data.dll
+C:\Users\HP\Desktop\PROYECTO\SesionManager\bin\Debug\DataLayer.pdb
+C:\Users\HP\Desktop\PROYECTO\SesionManager\bin\Debug\DataLayer.dll.config
+C:\Users\HP\Desktop\PROYECTO\SesionManager\obj\Debug\SesionManager.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\PROYECTO\SesionManager\obj\Debug\SesionManager.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\PROYECTO\SesionManager\obj\Debug\SesionManager.csproj.CopyComplete
+C:\Users\HP\Desktop\PROYECTO\SesionManager\obj\Debug\SesionManager.dll
+C:\Users\HP\Desktop\PROYECTO\SesionManager\obj\Debug\SesionManager.pdb
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\bin\Debug\SesionManager.dll
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\bin\Debug\SesionManager.pdb
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\bin\Debug\DataLayer.dll
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\bin\Debug\MySql.Data.dll
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\bin\Debug\DataLayer.pdb
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\bin\Debug\DataLayer.dll.config
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.csproj.AssemblyReference.cache
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.csproj.CoreCompileInputs.cache
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.csproj.CopyComplete
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.dll
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.pdb

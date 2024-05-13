@@ -1,0 +1,36 @@
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\DataLayer\bin\Debug\DataLayer.dll.config
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\DataLayer\bin\Debug\MySql.Data.dll
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\HP\Desktop\SPCRUD\DataLayer\bin\Debug\DataLayer.dll.config
+C:\Users\HP\Desktop\SPCRUD\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\HP\Desktop\SPCRUD\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\HP\Desktop\SPCRUD\DataLayer\bin\Debug\MySql.Data.dll
+C:\Users\HP\Desktop\SPCRUD\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\SPCRUD\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\SPCRUD\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\HP\Desktop\SPCRUD\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\HP\Desktop\SPCRUD\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\HP\Desktop\PROYECTO\DataLayer\bin\Debug\DataLayer.dll.config
+C:\Users\HP\Desktop\PROYECTO\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\HP\Desktop\PROYECTO\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\HP\Desktop\PROYECTO\DataLayer\bin\Debug\MySql.Data.dll
+C:\Users\HP\Desktop\PROYECTO\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\PROYECTO\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\PROYECTO\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\HP\Desktop\PROYECTO\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\HP\Desktop\PROYECTO\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\DataLayer\bin\Debug\DataLayer.dll.config
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\DataLayer\bin\Debug\MySql.Data.dll
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\DataLayer\obj\Debug\DataLayer.pdb

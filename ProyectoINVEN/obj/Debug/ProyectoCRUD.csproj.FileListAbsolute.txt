@@ -1,0 +1,57 @@
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\ProyectoCRUD\bin\Debug\ProyectoCRUD.exe.config
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\ProyectoCRUD\bin\Debug\ProyectoCRUD.exe
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\ProyectoCRUD\bin\Debug\ProyectoCRUD.pdb
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.Properties.Resources.resources
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.exe
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.pdb
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.Splash.resources
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.GUI.Principal.resources
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\ProyectoCRUD\bin\Debug\General.dll
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\ProyectoCRUD\bin\Debug\DataLayer.dll
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\ProyectoCRUD\bin\Debug\MySql.Data.dll
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\ProyectoCRUD\bin\Debug\General.pdb
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\ProyectoCRUD\bin\Debug\DataLayer.pdb
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\ProyectoCRUD\bin\Debug\DataLayer.dll.config
+C:\Users\HP\Desktop\Primer Ciclo Cuarto Año\Lab Desarrollo de Software II\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.csproj.CopyComplete
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\bin\Debug\ProyectoCRUD.exe.config
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\bin\Debug\ProyectoCRUD.exe
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\bin\Debug\ProyectoCRUD.pdb
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\bin\Debug\General.dll
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\bin\Debug\DataLayer.dll
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\bin\Debug\MySql.Data.dll
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\bin\Debug\General.pdb
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\bin\Debug\DataLayer.pdb
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\bin\Debug\DataLayer.dll.config
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.GUI.Principal.resources
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.Splash.resources
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.Properties.Resources.resources
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.csproj.CopyComplete
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.exe
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.pdb
+C:\Users\HP\Desktop\Parcial 2\SPCRUD\ProyectoCRUD\bin\Debug\ProyectoCRUD.exe.config
+C:\Users\HP\Desktop\Parcial 2\SPCRUD\ProyectoCRUD\bin\Debug\ProyectoCRUD.exe
+C:\Users\HP\Desktop\Parcial 2\SPCRUD\ProyectoCRUD\bin\Debug\ProyectoCRUD.pdb
+C:\Users\HP\Desktop\Parcial 2\SPCRUD\ProyectoCRUD\bin\Debug\General.dll
+C:\Users\HP\Desktop\Parcial 2\SPCRUD\ProyectoCRUD\bin\Debug\DataLayer.dll
+C:\Users\HP\Desktop\Parcial 2\SPCRUD\ProyectoCRUD\bin\Debug\MySql.Data.dll
+C:\Users\HP\Desktop\Parcial 2\SPCRUD\ProyectoCRUD\bin\Debug\General.pdb
+C:\Users\HP\Desktop\Parcial 2\SPCRUD\ProyectoCRUD\bin\Debug\DataLayer.pdb
+C:\Users\HP\Desktop\Parcial 2\SPCRUD\ProyectoCRUD\bin\Debug\DataLayer.dll.config
+C:\Users\HP\Desktop\Parcial 2\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Parcial 2\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.GUI.Principal.resources
+C:\Users\HP\Desktop\Parcial 2\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.Splash.resources
+C:\Users\HP\Desktop\Parcial 2\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.Properties.Resources.resources
+C:\Users\HP\Desktop\Parcial 2\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Parcial 2\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Parcial 2\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.csproj.CopyComplete
+C:\Users\HP\Desktop\Parcial 2\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.exe
+C:\Users\HP\Desktop\Parcial 2\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.pdb
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\obj\Debug\ProyectoCRUD.GUI.Login.resources
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\bin\Debug\SesionManager.dll
+C:\Users\HP\Desktop\SPCRUD\ProyectoCRUD\bin\Debug\SesionManager.pdb
