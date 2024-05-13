@@ -61,3 +61,24 @@ C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\ProyectoINVEN\obj\
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoINVEN.csproj.CopyComplete
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoCRUD.exe
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoCRUD.pdb
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\ProyectoCRUD.exe.config
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\ProyectoCRUD.exe
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\ProyectoCRUD.pdb
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\DataLayer.dll
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\General.dll
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\SesionManager.dll
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\MySql.Data.dll
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\DataLayer.pdb
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\DataLayer.dll.config
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\General.pdb
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\SesionManager.pdb
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoINVEN.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoCRUD.GUI.Login.resources
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoCRUD.GUI.Principal.resources
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoCRUD.Splash.resources
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoCRUD.Properties.Resources.resources
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoINVEN.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoINVEN.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoINVEN.csproj.CopyComplete
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoCRUD.exe
+C:\Users\HP\Desktop\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoCRUD.pdb

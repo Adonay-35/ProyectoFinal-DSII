@@ -31,3 +31,14 @@ C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\obj\
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.csproj.CopyComplete
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.dll
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.pdb
+C:\Users\HP\Desktop\ProyectoFinal-DSII\SesionManager\bin\Debug\SesionManager.dll
+C:\Users\HP\Desktop\ProyectoFinal-DSII\SesionManager\bin\Debug\SesionManager.pdb
+C:\Users\HP\Desktop\ProyectoFinal-DSII\SesionManager\bin\Debug\DataLayer.dll
+C:\Users\HP\Desktop\ProyectoFinal-DSII\SesionManager\bin\Debug\MySql.Data.dll
+C:\Users\HP\Desktop\ProyectoFinal-DSII\SesionManager\bin\Debug\DataLayer.pdb
+C:\Users\HP\Desktop\ProyectoFinal-DSII\SesionManager\bin\Debug\DataLayer.dll.config
+C:\Users\HP\Desktop\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.csproj.CopyComplete
+C:\Users\HP\Desktop\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.dll
+C:\Users\HP\Desktop\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.pdb
