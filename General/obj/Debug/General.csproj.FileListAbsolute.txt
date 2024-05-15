@@ -61,3 +61,7 @@ C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\General\obj\Debug\
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\General\obj\Debug\General.csproj.CopyComplete
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\General\obj\Debug\General.dll
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\General\obj\Debug\General.pdb
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\General\obj\Debug\General.GUI.UsuariosEdicion.resources
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\General\obj\Debug\General.GUI.UsuariosGestion.resources
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\General\obj\Debug\General.Properties.Resources.resources
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\General\obj\Debug\General.csproj.GenerateResource.cache

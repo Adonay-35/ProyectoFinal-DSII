@@ -11,8 +11,21 @@ CREATE TABLE Roles(
 CREATE TABLE Empleados (
 	IDEmpleado int auto_increment primary key,
     Nombres varchar(50) not null,
-    Apellidos varchar (50) not null
+    Apellidos varchar(50) not null/*,
+    DUI varchar(10) not null,
+    Direccion varchar(100) not null,
+    Telefono varchar(9) not null,
+    Correo varchar(50) not null*/
+    /*Lo dejo comentado por que no he modificado los insert y demas consultas*/
 );
+
+/*Lo dejo comentado por que no he modificado los insert, demas consultas y relaciones
+CREATE TABLE Cliente (
+	IDEmpleado int auto_increment primary key,
+    Nombres varchar(50) not null,
+    Apellidos varchar(50) not null,
+    Correo varchar(50) not null
+);*/
 
 CREATE TABLE Estados(
 	IDEstado int auto_increment primary key,
@@ -28,6 +41,11 @@ CREATE TABLE Proveedores(
 	Email varchar(80) not null
 );
 
+CREATE TABLE Categorias(
+	IDCategoria int auto_increment primary key,
+    Categoria varchar(50) not null
+);
+
 CREATE TABLE Usuarios(
 	IDUsuario int auto_increment primary key,
 	Usuario varchar(50) not null,
@@ -40,23 +58,28 @@ CREATE TABLE Usuarios(
 CREATE TABLE Productos (
     IDProducto varchar(100) primary key,
     Producto varchar(200) not null,
-    Stock int,
+    Stock int not null,
     Precio double not null,
-    Descripcion text,
-    IDProveedor int not null
+    FechaCreacion date not null,
+    FechaVencimiento date not null,
+    Descripcion text not null,
+    IDProveedor int not null,
+    IDCategoria int not null
 );
 
 
 CREATE TABLE Ventas (
     IDVenta varchar(20) primary key,
-    FechaVenta datetime,
-    IDUsuario int,
-    IDProductos mediumtext,
-    Total double
+    FechaVenta datetime not null,
+    IDUsuario int not null,
+    IDProductos mediumtext not null,
+    Cantidad int not null,
+    Total double not null
 );
 
 -- LLAVES FORANEAS
 ALTER TABLE Productos ADD CONSTRAINT fk_producto_proveedor FOREIGN KEY (IDProveedor) REFERENCES Proveedores(IDProveedor);
+ALTER TABLE Productos ADD CONSTRAINT fk_producto_categoria FOREIGN KEY (IDCategoria) REFERENCES Categorias(IDCategoria);
 ALTER TABLE Usuarios ADD CONSTRAINT fk_usuario_rol FOREIGN KEY (IDRol) REFERENCES Roles(IDRol);
 ALTER TABLE Usuarios ADD CONSTRAINT fk_usuario_empleado FOREIGN KEY (IDEmpleado) REFERENCES Empleados(IDEmpleado);
 ALTER TABLE Usuarios ADD CONSTRAINT fk_usuario_estado FOREIGN KEY (IDEstado) REFERENCES Estados(IDEstado);
@@ -88,11 +111,35 @@ INSERT INTO Proveedores VALUES ('3','Suministros Industriales Hermanos Pérez', 
 INSERT INTO Proveedores VALUES ('4','Electrodomésticos Vargas', 56789012, 'Calle Tecnología #234, Urbanización Moderna', 'ventas@electrodomesticosvargas.com');
 INSERT INTO Proveedores VALUES ('5','Distribuidora de Juguetes Felices', 87654321, 'Avenida de los Niños #567, Barrio Jardín', 'ventas@juguetesfelices.com');
 
-INSERT INTO Productos VALUES ('PROD001', "Refresco de cola", '100', '1.99', "Refresco de cola en lata de 355ml", '1');
-INSERT INTO Productos VALUES ('PROD002', "Bolsa de papas fritas", '150', '0.99', "Bolsa de papas fritas de 100g", '2');
-INSERT INTO Productos VALUES ('PROD003', "Jabón de manos", '200', '2.49', "Jabón líquido para manos con aroma a manzana", '3');
-INSERT INTO Productos VALUES ('PROD004', "Caja de dulces surtidos", '80', '5.99', "Caja de dulces surtidos, ideal para regalo", '4');
-INSERT INTO Productos VALUES ('PROD005', "Lápiz de colores", '300', '3.49', "Paquete de 12 lápices de colores surtidos", '5');
+INSERT INTO Categorias (IDCategoria, Categoria) VALUES
+(1, 'Lácteos'),
+(2, 'Carnes'),/*(pollo, res, cerdo)*/
+(3, 'Mariscos'),/*(pescado, camarón, etc.)*/
+(4, 'Alimentos enlatados'),
+(5, 'Bebidas embotelladas'),/*(plastico y vidrio)*/
+(6, 'Bebidas enlatadas'),
+(7, 'Bebidas para preparar'),/*(cafe en polvo, Tang, Yus, etc.)*/
+(8, 'Cereales'),
+(9, 'Frutas'),
+(10, 'Pastas'),/*(spaggeti, lasagña, etc.)*/
+(11, 'Hortalizas'),/*(incluye verduras y legumbres)*/
+(12, 'Desechables'),
+(13, 'Cocina'),/*(utensilios)*/
+(14, 'Postres'),
+(15, 'Golosinas'),
+(16, 'Deporte'),
+(17, 'Belleza'),
+(18, 'Electrodomésticos'),
+(19, 'Limpieza'),
+(20, 'Escolares'),
+(21, 'Juguetes'),
+(22, 'Mascotas');
+
+INSERT INTO Productos VALUES ('PROD001', "Refresco de cola", '100', '1.99', "Refresco de cola en lata de 355ml", '1', 6);
+INSERT INTO Productos VALUES ('PROD002', "Bolsa de papas fritas", '150', '0.99', "Bolsa de papas fritas de 100g", '2', 15);
+INSERT INTO Productos VALUES ('PROD003', "Jabón de manos", '200', '2.49', "Jabón líquido para manos con aroma a manzana", '3', 19);
+INSERT INTO Productos VALUES ('PROD004', "Caja de dulces surtidos", '80', '5.99', "Caja de dulces surtidos, ideal para regalo", '4', 15);
+INSERT INTO Productos VALUES ('PROD005', "Lápiz de colores", '300', '3.49', "Paquete de 12 lápices de colores surtidos", '5', 21);
 
 INSERT INTO Ventas VALUES ('VENTA001', '2024-05-01 08:30:00', '4', 'PROD001', '25.99');
 INSERT INTO Ventas VALUES ('VENTA002', '2024-05-02 10:15:00', '4', 'PROD003', '12.49');
