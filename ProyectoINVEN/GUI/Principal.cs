@@ -34,5 +34,20 @@ namespace ProyectoCRUD.GUI
 
             }
         }
+
+        private void productoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                General.GUI.ProductosGestion f = new General.GUI.ProductosGestion();
+                f.MdiParent = this;
+                f.Show();
+
+            }
+            catch (Exception)
+            {
+
+            }
+        }
     }
 }

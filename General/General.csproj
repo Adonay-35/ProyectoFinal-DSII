@@ -47,8 +47,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CLS\Estados.cs" />
+    <Compile Include="CLS\Productos.cs" />
     <Compile Include="CLS\Roles.cs" />
     <Compile Include="CLS\Usuarios.cs" />
+    <Compile Include="GUI\ProductosEdicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ProductosEdicion.Designer.cs">
+      <DependentUpon>ProductosEdicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ProductosGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ProductosGestion.Designer.cs">
+      <DependentUpon>ProductosGestion.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\UsuariosEdicion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +92,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="GUI\ProductosEdicion.resx">
+      <DependentUpon>ProductosEdicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ProductosGestion.resx">
+      <DependentUpon>ProductosGestion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\UsuariosEdicion.resx">
       <DependentUpon>UsuariosEdicion.cs</DependentUpon>
     </EmbeddedResource>
