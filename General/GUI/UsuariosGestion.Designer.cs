@@ -44,8 +44,8 @@
             this.IDUsuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Usuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Clave = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IDRol = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IDEmpleado = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IDRol = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IDEstado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -103,6 +103,7 @@
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(69, 22);
             this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // txbFiltro
             // 
@@ -153,8 +154,8 @@
             this.IDUsuario,
             this.Usuario,
             this.Clave,
-            this.IDRol,
             this.IDEmpleado,
+            this.IDRol,
             this.IDEstado});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 25);
@@ -170,6 +171,7 @@
             this.IDUsuario.HeaderText = "IDUsuario";
             this.IDUsuario.Name = "IDUsuario";
             this.IDUsuario.ReadOnly = true;
+            this.IDUsuario.Width = 80;
             // 
             // Usuario
             // 
@@ -181,11 +183,19 @@
             // 
             // Clave
             // 
-            this.Clave.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Clave.DataPropertyName = "Clave";
             this.Clave.HeaderText = "Clave";
             this.Clave.Name = "Clave";
             this.Clave.ReadOnly = true;
+            this.Clave.Width = 150;
+            // 
+            // IDEmpleado
+            // 
+            this.IDEmpleado.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.IDEmpleado.DataPropertyName = "IDEmpleado";
+            this.IDEmpleado.HeaderText = "IDEmpleado";
+            this.IDEmpleado.Name = "IDEmpleado";
+            this.IDEmpleado.ReadOnly = true;
             // 
             // IDRol
             // 
@@ -194,19 +204,13 @@
             this.IDRol.Name = "IDRol";
             this.IDRol.ReadOnly = true;
             // 
-            // IDEmpleado
-            // 
-            this.IDEmpleado.DataPropertyName = "IDEmpleado";
-            this.IDEmpleado.HeaderText = "IDEmpleado";
-            this.IDEmpleado.Name = "IDEmpleado";
-            this.IDEmpleado.ReadOnly = true;
-            // 
             // IDEstado
             // 
             this.IDEstado.DataPropertyName = "IDEstado";
             this.IDEstado.HeaderText = "IDEstado";
             this.IDEstado.Name = "IDEstado";
             this.IDEstado.ReadOnly = true;
+            this.IDEstado.Width = 90;
             // 
             // UsuariosGestion
             // 
@@ -217,6 +221,7 @@
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
             this.Name = "UsuariosGestion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuariosGestion";
             this.Load += new System.EventHandler(this.UsuariosGestion_Load);
             this.toolStrip1.ResumeLayout(false);
@@ -246,8 +251,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn IDUsuario;
         private System.Windows.Forms.DataGridViewTextBoxColumn Usuario;
         private System.Windows.Forms.DataGridViewTextBoxColumn Clave;
-        private System.Windows.Forms.DataGridViewTextBoxColumn IDRol;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDEmpleado;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IDRol;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDEstado;
     }
 }

@@ -23,5 +23,9 @@ namespace General.CLS
         public int Estado { get => _Estado; set => _Estado = value; }
         public string Descripcion { get => _Descripcion; set => _Descripcion = value; }
 
+        public string toString()
+        {
+            return this._Estado + " - " + this._Descripcion;
+        }
     }
 }

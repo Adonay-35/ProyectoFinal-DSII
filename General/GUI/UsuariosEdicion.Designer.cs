@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label5 = new System.Windows.Forms.Label();
             this.txbIDEmpleado = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -40,8 +41,10 @@
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.cbEstado = new System.Windows.Forms.ComboBox();
-            this.cbRol = new System.Windows.Forms.ComboBox();
+            this.cbEstados = new System.Windows.Forms.ComboBox();
+            this.cbRoles = new System.Windows.Forms.ComboBox();
+            this.Notificador = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.Notificador)).BeginInit();
             this.SuspendLayout();
             // 
             // label5
@@ -126,6 +129,7 @@
             this.btnCancelar.TabIndex = 19;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnGuardar
             // 
@@ -135,6 +139,7 @@
             this.btnGuardar.TabIndex = 18;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // label6
             // 
@@ -145,29 +150,34 @@
             this.label6.TabIndex = 30;
             this.label6.Text = "Estado";
             // 
-            // cbEstado
+            // cbEstados
             // 
-            this.cbEstado.FormattingEnabled = true;
-            this.cbEstado.Location = new System.Drawing.Point(140, 332);
-            this.cbEstado.Name = "cbEstado";
-            this.cbEstado.Size = new System.Drawing.Size(307, 21);
-            this.cbEstado.TabIndex = 31;
+            this.cbEstados.FormattingEnabled = true;
+            this.cbEstados.Location = new System.Drawing.Point(140, 332);
+            this.cbEstados.Name = "cbEstados";
+            this.cbEstados.Size = new System.Drawing.Size(307, 21);
+            this.cbEstados.TabIndex = 8;
             // 
-            // cbRol
+            // cbRoles
             // 
-            this.cbRol.FormattingEnabled = true;
-            this.cbRol.Location = new System.Drawing.Point(140, 277);
-            this.cbRol.Name = "cbRol";
-            this.cbRol.Size = new System.Drawing.Size(307, 21);
-            this.cbRol.TabIndex = 32;
+            this.cbRoles.FormattingEnabled = true;
+            this.cbRoles.Location = new System.Drawing.Point(140, 277);
+            this.cbRoles.Name = "cbRoles";
+            this.cbRoles.Size = new System.Drawing.Size(307, 21);
+            this.cbRoles.TabIndex = 32;
+            // 
+            // Notificador
+            // 
+            this.Notificador.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
+            this.Notificador.ContainerControl = this;
             // 
             // UsuariosEdicion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(568, 450);
-            this.Controls.Add(this.cbRol);
-            this.Controls.Add(this.cbEstado);
+            this.Controls.Add(this.cbRoles);
+            this.Controls.Add(this.cbEstados);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txbIDEmpleado);
@@ -181,7 +191,10 @@
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnGuardar);
             this.Name = "UsuariosEdicion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuariosEdicion";
+            this.Load += new System.EventHandler(this.UsuariosEdicion_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.Notificador)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,7 +213,8 @@
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Label label6;
-        public System.Windows.Forms.ComboBox cbEstado;
-        public System.Windows.Forms.ComboBox cbRol;
+        public System.Windows.Forms.ComboBox cbEstados;
+        public System.Windows.Forms.ComboBox cbRoles;
+        private System.Windows.Forms.ErrorProvider Notificador;
     }
 }

@@ -61,3 +61,4 @@ C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\ProyectoINVEN\obj\
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoINVEN.csproj.CopyComplete
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoCRUD.exe
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoCRUD.pdb
+C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\General.dll.config
