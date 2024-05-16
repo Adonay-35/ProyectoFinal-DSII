@@ -47,7 +47,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.txbIDProveedor = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.txbFechaCreacion = new System.Windows.Forms.TextBox();
+            this.txbFechaFabricacion = new System.Windows.Forms.TextBox();
             this.txbFechaVencimiento = new System.Windows.Forms.TextBox();
             this.Notificador = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.Notificador)).BeginInit();
@@ -67,9 +67,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(77, 239);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 13);
+            this.label5.Size = new System.Drawing.Size(92, 13);
             this.label5.TabIndex = 42;
-            this.label5.Text = "FechaCreacion";
+            this.label5.Text = "FechaFabricacion";
             // 
             // txbPrecio
             // 
@@ -206,12 +206,12 @@
             this.label9.TabIndex = 51;
             this.label9.Text = "IDProveedor";
             // 
-            // txbFechaCreacion
+            // txbFechaFabricacion
             // 
-            this.txbFechaCreacion.Location = new System.Drawing.Point(80, 255);
-            this.txbFechaCreacion.Name = "txbFechaCreacion";
-            this.txbFechaCreacion.Size = new System.Drawing.Size(307, 20);
-            this.txbFechaCreacion.TabIndex = 53;
+            this.txbFechaFabricacion.Location = new System.Drawing.Point(80, 255);
+            this.txbFechaFabricacion.Name = "txbFechaFabricacion";
+            this.txbFechaFabricacion.Size = new System.Drawing.Size(307, 20);
+            this.txbFechaFabricacion.TabIndex = 53;
             // 
             // txbFechaVencimiento
             // 
@@ -231,7 +231,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(486, 499);
             this.Controls.Add(this.txbFechaVencimiento);
-            this.Controls.Add(this.txbFechaCreacion);
+            this.Controls.Add(this.txbFechaFabricacion);
             this.Controls.Add(this.txbIDProveedor);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txbIDCategoria);
@@ -278,7 +278,7 @@
         private System.Windows.Forms.Label label8;
         public System.Windows.Forms.ComboBox txbIDProveedor;
         private System.Windows.Forms.Label label9;
-        public System.Windows.Forms.TextBox txbFechaCreacion;
+        public System.Windows.Forms.TextBox txbFechaFabricacion;
         public System.Windows.Forms.TextBox txbFechaVencimiento;
         private System.Windows.Forms.ErrorProvider Notificador;
     }
