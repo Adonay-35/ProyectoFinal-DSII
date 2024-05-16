@@ -66,3 +66,21 @@ C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\General\obj\Debug\
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\General\obj\Debug\General.Properties.Resources.resources
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\General\obj\Debug\General.csproj.GenerateResource.cache
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\General\bin\Debug\General.dll.config
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\bin\Debug\General.dll.config
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\bin\Debug\General.dll
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\bin\Debug\General.pdb
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\bin\Debug\DataLayer.dll
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\bin\Debug\MySql.Data.dll
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\bin\Debug\DataLayer.pdb
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\bin\Debug\DataLayer.dll.config
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\obj\Debug\General.csproj.AssemblyReference.cache
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\obj\Debug\General.GUI.UsuariosEdicion.resources
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\obj\Debug\General.GUI.UsuariosGestion.resources
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\obj\Debug\General.Properties.Resources.resources
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\obj\Debug\General.csproj.GenerateResource.cache
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\obj\Debug\General.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\obj\Debug\General.csproj.Up2Date
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\obj\Debug\General.dll
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\obj\Debug\General.pdb
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\obj\Debug\General.GUI.ProductosEdicion.resources
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\obj\Debug\General.GUI.ProductosGestion.resources

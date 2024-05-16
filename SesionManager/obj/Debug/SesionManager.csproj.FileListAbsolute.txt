@@ -31,3 +31,14 @@ C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\obj\
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.csproj.CopyComplete
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.dll
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.pdb
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\SesionManager\bin\Debug\SesionManager.dll
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\SesionManager\bin\Debug\SesionManager.pdb
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\SesionManager\bin\Debug\DataLayer.dll
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\SesionManager\bin\Debug\MySql.Data.dll
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\SesionManager\bin\Debug\DataLayer.pdb
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\SesionManager\bin\Debug\DataLayer.dll.config
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.csproj.AssemblyReference.cache
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionMa.C27CDDB7.Up2Date
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.dll
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\SesionManager\obj\Debug\SesionManager.pdb

@@ -62,3 +62,25 @@ C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\ProyectoINVEN\obj\
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoCRUD.exe
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoCRUD.pdb
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\General.dll.config
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\ProyectoCRUD.exe.config
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\ProyectoCRUD.exe
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\ProyectoCRUD.pdb
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\DataLayer.dll
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\General.dll
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\SesionManager.dll
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\MySql.Data.dll
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\DataLayer.pdb
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\DataLayer.dll.config
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\General.pdb
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\General.dll.config
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\bin\Debug\SesionManager.pdb
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoINVEN.csproj.AssemblyReference.cache
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoCRUD.GUI.Login.resources
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoCRUD.GUI.Principal.resources
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoCRUD.Splash.resources
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoCRUD.Properties.Resources.resources
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoINVEN.csproj.GenerateResource.cache
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoINVEN.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\Proyecto.7B1E00AE.Up2Date
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoCRUD.exe
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\ProyectoINVEN\obj\Debug\ProyectoCRUD.pdb

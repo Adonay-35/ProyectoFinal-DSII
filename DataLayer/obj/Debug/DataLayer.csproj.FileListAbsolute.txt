@@ -34,3 +34,12 @@ C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\DataLayer\obj\Debu
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\DataLayer\obj\Debug\DataLayer.dll
 C:\Users\MINEDUCYT\Documents\Proyecto DSII\ProyectoFinal-DSII\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\DataLayer\bin\Debug\DataLayer.dll.config
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\DataLayer\bin\Debug\MySql.Data.dll
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\DataLayer\obj\Debug\DataLayer.csproj.Up2Date
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\DataLayer\obj\Debug\DataLayer.pdb

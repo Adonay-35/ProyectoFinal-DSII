@@ -24,5 +24,24 @@ namespace DataLayer
             }
             return Resultado;
         }
+
+        public static DataTable PRODUCTOS()
+        {
+            DataTable Resultado = new DataTable();
+            string Consulta = @"SELECT IDProducto, Producto, Stock, Precio, FechaCreacion, FechaVencimiento, Descripcion, IDProveedor, IDCategoria
+                                FROM Productos ORDER BY Producto ASC;";
+            DBOperacion operacion = new DBOperacion();
+            try
+            {
+                Resultado = operacion.Consultar(Consulta);
+            }
+            catch (Exception ex)
+            {
+                
+                Console.WriteLine("Error: " + ex.Message);
+            }
+            return Resultado;
+        }
+
     }
 }
