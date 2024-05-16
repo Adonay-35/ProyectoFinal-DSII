@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace General.GUI
 {
@@ -18,7 +19,7 @@ namespace General.GUI
         {
             try
             {
-                //_DATOS.DataSource = DataLayer.Consultas.USUARIOS();
+                _DATOS.DataSource = DataLayer.Consultas.USUARIOS();
                 FiltrarLocalmente();
             }
             catch (Exception)
@@ -100,12 +101,27 @@ namespace General.GUI
                     oUsuario.txbIDUsuario.Text = dataGridView1.CurrentRow.Cells["IDUsuario"].Value.ToString();
                     oUsuario.txbUsuario.Text = dataGridView1.CurrentRow.Cells["Usuario"].Value.ToString();
                     oUsuario.txbClave.Text = dataGridView1.CurrentRow.Cells["Clave"].Value.ToString();
-                    oUsuario.cbRol.Text = dataGridView1.CurrentRow.Cells["IDRol"].Value.ToString();
+                    //oUsuario.cbRoles.SelectedItem = dataGridView1.CurrentRow.Cells["IDRol"].Value.ToString();
                     oUsuario.txbIDEmpleado.Text = dataGridView1.CurrentRow.Cells["IDEmpleado"].Value.ToString();
-                    oUsuario.cbEstado.Text = dataGridView1.CurrentRow.Cells["IDEstado"].Value.ToString();
+                    //oUsuario.cbEstados.SelectedItem = dataGridView1.CurrentRow.Cells["IDEstado"].Value.ToString();
                     oUsuario.ShowDialog();
                     Cargar();
                 }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                UsuariosEdicion f = new UsuariosEdicion();
+                f.ShowDialog();
+                Cargar();
+                lblRegistros.Text = _DATOS.Count.ToString();
             }
             catch (Exception)
             {

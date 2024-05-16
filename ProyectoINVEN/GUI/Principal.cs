@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SesionManager;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,19 +18,21 @@ namespace ProyectoCRUD.GUI
             InitializeComponent();
         }
 
-        private void Opcion1_Click(object sender, EventArgs e)
+        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-       
-        }
+            try
+            {
+                //if (oSesion.ValidarPermiso(1))
+                //{
+                    General.GUI.UsuariosGestion f = new General.GUI.UsuariosGestion();
+                    f.MdiParent = this;
+                    f.Show();
+                //}
+            }
+            catch (Exception)
+            {
 
-        private void opcion2ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void Principal_Load(object sender, EventArgs e)
-        {
-
+            }
         }
     }
 }
