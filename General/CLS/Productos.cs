@@ -14,7 +14,7 @@ namespace General.CLS
         double _Precio;
         string _Descripcion;
         Int32 _IDProveedor;
-        DateTime _FechaCreacion;
+        DateTime _FechaFabricacion;
         DateTime _FechaVencimiento;
         Int32 _IDCategoria;
 
@@ -24,7 +24,7 @@ namespace General.CLS
         public double Precio { get => _Precio; set => _Precio = value; }
         public string Descripcion { get => _Descripcion; set => _Descripcion = value; }
         public Int32 IDProveedor { get => _IDProveedor; set => _IDProveedor = value; }
-        public DateTime FechaCreacion { get => _FechaCreacion; set => _FechaCreacion = value; }
+        public DateTime FechaCreacion { get => _FechaFabricacion; set => _FechaFabricacion = value; }
         public DateTime FechaVencimiento { get => _FechaVencimiento; set => _FechaVencimiento = value; }
         public Int32 IDCategoria { get => _IDCategoria; set => _IDCategoria = value; }
 
@@ -41,7 +41,7 @@ namespace General.CLS
             Sentencia.Append(_Precio + ", ");
             Sentencia.Append("'" + _Descripcion + "', ");
             Sentencia.Append(_IDProveedor + ", ");
-            Sentencia.Append("'" + _FechaCreacion.ToString("yyyy-MM-dd") + "', ");
+            Sentencia.Append("'" + _FechaFabricacion.ToString("yyyy-MM-dd") + "', ");
             Sentencia.Append("'" + _FechaVencimiento.ToString("yyyy-MM-dd") + "', ");
             Sentencia.Append(_IDCategoria + ");");
 
@@ -75,7 +75,7 @@ namespace General.CLS
             Sentencia.Append("Precio=" + _Precio + ", ");
             Sentencia.Append("Descripcion='" + _Descripcion + "', ");
             Sentencia.Append("IDProveedor=" + _IDProveedor + ", ");
-            Sentencia.Append("FechaCreacion='" + _FechaCreacion.ToString("yyyy-MM-dd") + "', ");
+            Sentencia.Append("FechaCreacion='" + _FechaFabricacion.ToString("yyyy-MM-dd") + "', ");
             Sentencia.Append("FechaVencimiento='" + _FechaVencimiento.ToString("yyyy-MM-dd") + "', ");
             Sentencia.Append("IDCategoria=" + _IDCategoria);
             Sentencia.Append(" WHERE IDProducto='" + _IDProducto + "';");

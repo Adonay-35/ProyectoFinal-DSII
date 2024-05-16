@@ -43,9 +43,9 @@ namespace General.GUI
                     Notificador.SetError(txbDescripcion, "El campo 'Descripción' no puede quedar vacío");
                     valido = false;
                 }
-                if (txbFechaCreacion.Text.Trim().Length == 0 || !DateTime.TryParse(txbFechaCreacion.Text, out DateTime fechaCreacion))
+                if (txbFechaFabricacion.Text.Trim().Length == 0 || !DateTime.TryParse(txbFechaFabricacion.Text, out DateTime fechaCreacion))
                 {
-                    Notificador.SetError(txbFechaCreacion, "El campo 'Fecha de Creación' no puede quedar vacío y debe ser una fecha válida");
+                    Notificador.SetError(txbFechaFabricacion, "El campo 'Fecha de Creación' no puede quedar vacío y debe ser una fecha válida");
                     valido = false;
                 }
                 if (txbFechaVencimiento.Text.Trim().Length == 0 || !DateTime.TryParse(txbFechaVencimiento.Text, out DateTime fechaVencimiento))
@@ -99,7 +99,7 @@ namespace General.GUI
                     oProducto.Precio = Convert.ToDouble(txbPrecio.Text);
                     oProducto.Descripcion = txbDescripcion.Text.Trim();
                     oProducto.IDProveedor = Convert.ToInt32(txbIDProveedor.Text);
-                    oProducto.FechaCreacion = Convert.ToDateTime(txbFechaCreacion.Text);
+                    oProducto.FechaCreacion = Convert.ToDateTime(txbFechaFabricacion.Text);
                     oProducto.FechaVencimiento = Convert.ToDateTime(txbFechaVencimiento.Text);
                     oProducto.IDCategoria = Convert.ToInt32(txbIDCategoria.Text);
 
