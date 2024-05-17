@@ -43,9 +43,9 @@
             this.btnGuardar = new System.Windows.Forms.Button();
             this.txbDescripcion = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.txbIDCategoria = new System.Windows.Forms.ComboBox();
+            this.cbCategoria = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.txbIDProveedor = new System.Windows.Forms.ComboBox();
+            this.cbProveedor = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.txbFechaFabricacion = new System.Windows.Forms.TextBox();
             this.txbFechaVencimiento = new System.Windows.Forms.TextBox();
@@ -172,30 +172,30 @@
             this.label7.TabIndex = 47;
             this.label7.Text = "Descripcion";
             // 
-            // txbIDCategoria
+            // cbCategoria
             // 
-            this.txbIDCategoria.FormattingEnabled = true;
-            this.txbIDCategoria.Location = new System.Drawing.Point(80, 437);
-            this.txbIDCategoria.Name = "txbIDCategoria";
-            this.txbIDCategoria.Size = new System.Drawing.Size(307, 21);
-            this.txbIDCategoria.TabIndex = 50;
+            this.cbCategoria.FormattingEnabled = true;
+            this.cbCategoria.Location = new System.Drawing.Point(80, 437);
+            this.cbCategoria.Name = "cbCategoria";
+            this.cbCategoria.Size = new System.Drawing.Size(307, 21);
+            this.cbCategoria.TabIndex = 50;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(77, 421);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(63, 13);
+            this.label8.Size = new System.Drawing.Size(57, 13);
             this.label8.TabIndex = 49;
-            this.label8.Text = "IDCategoria";
+            this.label8.Text = "Categorias";
             // 
-            // txbIDProveedor
+            // cbProveedor
             // 
-            this.txbIDProveedor.FormattingEnabled = true;
-            this.txbIDProveedor.Location = new System.Drawing.Point(80, 394);
-            this.txbIDProveedor.Name = "txbIDProveedor";
-            this.txbIDProveedor.Size = new System.Drawing.Size(307, 21);
-            this.txbIDProveedor.TabIndex = 52;
+            this.cbProveedor.FormattingEnabled = true;
+            this.cbProveedor.Location = new System.Drawing.Point(80, 394);
+            this.cbProveedor.Name = "cbProveedor";
+            this.cbProveedor.Size = new System.Drawing.Size(307, 21);
+            this.cbProveedor.TabIndex = 52;
             // 
             // label9
             // 
@@ -204,7 +204,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(67, 13);
             this.label9.TabIndex = 51;
-            this.label9.Text = "IDProveedor";
+            this.label9.Text = "Proveedores";
             // 
             // txbFechaFabricacion
             // 
@@ -232,9 +232,9 @@
             this.ClientSize = new System.Drawing.Size(486, 499);
             this.Controls.Add(this.txbFechaVencimiento);
             this.Controls.Add(this.txbFechaFabricacion);
-            this.Controls.Add(this.txbIDProveedor);
+            this.Controls.Add(this.cbProveedor);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.txbIDCategoria);
+            this.Controls.Add(this.cbCategoria);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txbDescripcion);
             this.Controls.Add(this.label7);
@@ -253,6 +253,7 @@
             this.Name = "ProductosEdicion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProductosEdicion";
+            this.Load += new System.EventHandler(this.ProductosEdicion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Notificador)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -274,9 +275,9 @@
         private System.Windows.Forms.Button btnGuardar;
         public System.Windows.Forms.TextBox txbDescripcion;
         private System.Windows.Forms.Label label7;
-        public System.Windows.Forms.ComboBox txbIDCategoria;
+        public System.Windows.Forms.ComboBox cbCategoria;
         private System.Windows.Forms.Label label8;
-        public System.Windows.Forms.ComboBox txbIDProveedor;
+        public System.Windows.Forms.ComboBox cbProveedor;
         private System.Windows.Forms.Label label9;
         public System.Windows.Forms.TextBox txbFechaFabricacion;
         public System.Windows.Forms.TextBox txbFechaVencimiento;

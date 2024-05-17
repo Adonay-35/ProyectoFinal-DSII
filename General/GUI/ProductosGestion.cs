@@ -80,10 +80,10 @@ namespace General.GUI
                         oProducto.txbStock.Text = dataGridView1.CurrentRow.Cells["Stock"].Value.ToString();
                         oProducto.txbPrecio.Text = dataGridView1.CurrentRow.Cells["Precio"].Value.ToString();
                         oProducto.txbDescripcion.Text = dataGridView1.CurrentRow.Cells["Descripcion"].Value.ToString();
-                        oProducto.txbIDProveedor.Text = dataGridView1.CurrentRow.Cells["IDProveedor"].Value.ToString();
+                        oProducto.cbProveedor.Text = dataGridView1.CurrentRow.Cells["IDProveedor"].Value.ToString();
                         oProducto.txbFechaFabricacion.Text = dataGridView1.CurrentRow.Cells["FechaFabricacion"].Value.ToString();
                         oProducto.txbFechaVencimiento.Text = dataGridView1.CurrentRow.Cells["FechaVencimiento"].Value.ToString();
-                        oProducto.txbIDCategoria.Text = dataGridView1.CurrentRow.Cells["IDCategoria"].Value.ToString();
+                        oProducto.cbCategoria.Text = dataGridView1.CurrentRow.Cells["IDCategoria"].Value.ToString();
                         oProducto.ShowDialog();
 
                         Cargar();
@@ -104,7 +104,7 @@ namespace General.GUI
                 {
                     if (MessageBox.Show("¿Desea ELIMINAR el registro seleccionado?", "Pregunta", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     {
-                        Producto oProducto = new Producto();
+                        Productos oProducto = new Productos();
                         oProducto.IDProducto = Convert.ToInt32(dataGridView1.CurrentRow.Cells["IDProducto"].Value.ToString());
 
                         if (oProducto.Eliminar())

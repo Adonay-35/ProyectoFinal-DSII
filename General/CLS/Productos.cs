@@ -1,12 +1,14 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace General.CLS
 {
-    internal class Producto
+    internal class Productos
     {
         Int32 _IDProducto;
         string _Producto;
@@ -17,6 +19,10 @@ namespace General.CLS
         DateTime _FechaFabricacion;
         DateTime _FechaVencimiento;
         Int32 _IDCategoria;
+
+        MySqlDataReader resultado;
+        DataTable tabla = new DataTable();
+        MySqlConnection sqlConexion = new MySqlConnection();
 
         public Int32 IDProducto { get => _IDProducto; set => _IDProducto = value; }
         public string NombreProducto { get => _Producto; set => _Producto = value; }
@@ -124,6 +130,77 @@ namespace General.CLS
             }
             return Resultado;
         }
-    }
 
+        public List<Proveedores> ObtenerProveedores()
+        {
+            List<Proveedores> listaProveedores = new List<Proveedores>();
+
+            try
+            {
+                sqlConexion.ConnectionString = "Server=localhost;Port=3306;Database=sistemaventas;Uid=sistema-user;Pwd=root;SslMode=None;";
+                MySqlCommand comando = new MySqlCommand("ObtenerProveedores", sqlConexion);
+                comando.CommandType = CommandType.StoredProcedure;
+                sqlConexion.Open();
+                resultado = comando.ExecuteReader();
+
+                while (resultado.Read())
+                        {
+                            listaProveedores.Add(new Proveedores(
+                                resultado.GetInt32(0),
+                                resultado.GetString(1)
+                                ));
+                        }
+
+                return listaProveedores;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                if (sqlConexion.State == ConnectionState.Open)
+                {
+                    sqlConexion.Close();
+                }
+            }
+        }
+
+        public List<Categorias> ObtenerCategorias()
+        {
+            List<Categorias> listaCategorias = new List<Categorias>();
+            try 
+            { 
+                MySqlConnection sqlConexion = new MySqlConnection("Server=localhost;Port=3306;Database=sistemaventas;Uid=sistema-user;Pwd=root;SslMode=None;");
+                MySqlCommand comando = new MySqlCommand("ObtenerCategorias", sqlConexion);
+                comando.CommandType = CommandType.StoredProcedure;
+                sqlConexion.Open();
+                resultado = comando.ExecuteReader();
+
+                while (resultado.Read())
+                {
+                    listaCategorias.Add(new Categorias(
+                        resultado.GetInt32(0),
+                        resultado.GetString(1)
+                    ));
+                }
+
+                return listaCategorias;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                if (sqlConexion.State == ConnectionState.Open)
+                {
+                    sqlConexion.Close();
+                }
+            }
+        }
+
+    }
 }
+
+
