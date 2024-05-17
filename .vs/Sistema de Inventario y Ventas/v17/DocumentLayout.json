@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\general\\gui\\productosgestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|solutionrelative:general\\gui\\productosgestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|c:\\users\\kevin\\documents\\github\\proyectofinal-dsii\\general\\cls\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|solutionrelative:general\\cls\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|c:\\users\\kevin\\documents\\github\\proyectofinal-dsii\\general\\gui\\productosedicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|solutionrelative:general\\gui\\productosedicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|c:\\users\\kevin\\documents\\github\\proyectofinal-dsii\\general\\cls\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|c:\\users\\kevin\\documents\\github\\proyectofinal-dsii\\general\\gui\\productosedicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|solutionrelative:general\\gui\\productosedicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|c:\\users\\kevin\\documents\\github\\proyectofinal-dsii\\general\\cls\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|solutionrelative:general\\cls\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|c:\\users\\kevin\\documents\\github\\proyectofinal-dsii\\general\\gui\\usuariosedicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|solutionrelative:general\\gui\\usuariosedicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\general\\cls\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|solutionrelative:general\\cls\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DD26EF1-D04C-46D0-A0A3-C29839AFEE60}|ProyectoINVEN\\ProyectoINVEN.csproj|c:\\users\\kevin\\documents\\github\\proyectofinal-dsii\\proyectoinven\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2DD26EF1-D04C-46D0-A0A3-C29839AFEE60}|ProyectoINVEN\\ProyectoINVEN.csproj|solutionrelative:proyectoinven\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|c:\\users\\kevin\\documents\\github\\proyectofinal-dsii\\general\\cls\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|solutionrelative:general\\cls\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\general\\gui\\usuariosgestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|solutionrelative:general\\gui\\usuariosgestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\general\\gui\\usuariosgestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|solutionrelative:general\\gui\\usuariosgestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|c:\\users\\kevin\\documents\\github\\proyectofinal-dsii\\general\\cls\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8925E47B-CD45-4986-B810-EF5AE374BB8B}|General\\General.csproj|solutionrelative:general\\cls\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +42,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Categorias.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\CLS\\Categorias.cs",
+              "RelativeDocumentMoniker": "General\\CLS\\Categorias.cs",
+              "ToolTip": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\CLS\\Categorias.cs",
+              "RelativeToolTip": "General\\CLS\\Categorias.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T00:48:45.833Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -45,69 +66,86 @@
               "ToolTip": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\GUI\\ProductosEdicion.cs [Dise\u00F1o]",
               "RelativeToolTip": "General\\GUI\\ProductosEdicion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T21:30:13.777Z",
+              "WhenOpened": "2024-05-17T00:44:37.739Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Productos.cs",
-              "DocumentMoniker": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\CLS\\Productos.cs",
-              "RelativeDocumentMoniker": "General\\CLS\\Productos.cs",
-              "ToolTip": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\CLS\\Productos.cs",
-              "RelativeToolTip": "General\\CLS\\Productos.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAADwv1UAAAARAAAA",
+              "DocumentIndex": 7,
+              "Title": "Proveedores.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\CLS\\Proveedores.cs",
+              "RelativeDocumentMoniker": "General\\CLS\\Proveedores.cs",
+              "ToolTip": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\CLS\\Proveedores.cs",
+              "RelativeToolTip": "General\\CLS\\Proveedores.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T21:29:30.644Z",
+              "WhenOpened": "2024-05-17T00:08:54.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\ProyectoINVEN\\GUI\\Login.cs",
-              "RelativeDocumentMoniker": "ProyectoINVEN\\GUI\\Login.cs",
-              "ToolTip": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\ProyectoINVEN\\GUI\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectoINVEN\\GUI\\Login.cs [Dise\u00F1o]",
+              "DocumentIndex": 6,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\CLS\\Roles.cs",
+              "RelativeDocumentMoniker": "General\\CLS\\Roles.cs",
+              "ToolTip": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\CLS\\Roles.cs",
+              "RelativeToolTip": "General\\CLS\\Roles.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T20:38:49.708Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-17T00:06:29.442Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UsuariosGestion.cs",
-              "DocumentMoniker": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\GUI\\UsuariosGestion.cs",
-              "RelativeDocumentMoniker": "General\\GUI\\UsuariosGestion.cs",
-              "ToolTip": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\GUI\\UsuariosGestion.cs",
-              "RelativeToolTip": "General\\GUI\\UsuariosGestion.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwCgAAABJAAAA",
+              "Title": "UsuariosEdicion.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\GUI\\UsuariosEdicion.cs",
+              "RelativeDocumentMoniker": "General\\GUI\\UsuariosEdicion.cs",
+              "ToolTip": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\GUI\\UsuariosEdicion.cs",
+              "RelativeToolTip": "General\\GUI\\UsuariosEdicion.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAA5wHUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T17:04:08.676Z"
+              "WhenOpened": "2024-05-16T23:16:00.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductosEdicion.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\GUI\\ProductosEdicion.cs",
+              "RelativeDocumentMoniker": "General\\GUI\\ProductosEdicion.cs",
+              "ToolTip": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\GUI\\ProductosEdicion.cs",
+              "RelativeToolTip": "General\\GUI\\ProductosEdicion.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAYwGQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T23:15:34.101Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductosGestion.cs",
-              "DocumentMoniker": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\GUI\\ProductosGestion.cs",
-              "RelativeDocumentMoniker": "General\\GUI\\ProductosGestion.cs",
-              "ToolTip": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\GUI\\ProductosGestion.cs",
-              "RelativeToolTip": "General\\GUI\\ProductosGestion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAAAAAAAA",
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\CLS\\Usuarios.cs",
+              "RelativeDocumentMoniker": "General\\CLS\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\CLS\\Usuarios.cs",
+              "RelativeToolTip": "General\\CLS\\Usuarios.cs",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAkwKMAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T18:24:38.758Z",
+              "WhenOpened": "2024-05-16T22:08:36.556Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UsuariosGestion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\GUI\\UsuariosGestion.cs",
-              "RelativeDocumentMoniker": "General\\GUI\\UsuariosGestion.cs",
-              "ToolTip": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\GUI\\UsuariosGestion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "General\\GUI\\UsuariosGestion.cs [Dise\u00F1o]",
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\CLS\\Productos.cs",
+              "RelativeDocumentMoniker": "General\\CLS\\Productos.cs",
+              "ToolTip": "C:\\Users\\kevin\\Documents\\GitHub\\ProyectoFinal-DSII\\General\\CLS\\Productos.cs",
+              "RelativeToolTip": "General\\CLS\\Productos.cs",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAIwKwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T17:04:08.676Z"
+              "WhenOpened": "2024-05-16T21:29:30.644Z",
+              "EditorCaption": ""
             }
           ]
         }

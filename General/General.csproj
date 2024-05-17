@@ -46,10 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CLS\Categorias.cs" />
     <Compile Include="CLS\Estados.cs" />
     <Compile Include="CLS\Productos.cs" />
+    <Compile Include="CLS\Proveedores.cs" />
     <Compile Include="CLS\Roles.cs" />
     <Compile Include="CLS\Usuarios.cs" />
+    <Compile Include="CLS\Ventas.cs" />
     <Compile Include="GUI\ProductosEdicion.cs">
       <SubType>Form</SubType>
     </Compile>

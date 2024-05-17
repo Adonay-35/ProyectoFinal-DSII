@@ -1,4 +1,5 @@
-﻿using General.CLS;
+﻿using DataLayer;
+using General.CLS;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +14,8 @@ namespace General.GUI
 {
     public partial class ProductosEdicion : Form
     {
+        Productos metodosProveedores = new Productos();
+
         private Boolean Validar()
         {
             Boolean valido = true;
@@ -53,14 +56,14 @@ namespace General.GUI
                     Notificador.SetError(txbFechaVencimiento, "El campo 'Fecha de Vencimiento' no puede quedar vacío y debe ser una fecha válida");
                     valido = false;
                 }
-                if (txbIDProveedor.Text.Trim().Length == 0 || !int.TryParse(txbIDProveedor.Text, out int idProveedor) || idProveedor <= 0)
+                if (cbProveedor.Text.Trim().Length == 0 || !int.TryParse(cbProveedor.Text, out int idProveedor) || idProveedor <= 0)
                 {
-                    Notificador.SetError(txbIDProveedor, "El campo 'ID Proveedor' debe ser un valor mayor que cero");
+                    Notificador.SetError(cbProveedor, "El campo 'ID Proveedor' debe ser un valor mayor que cero");
                     valido = false;
                 }
-                if (txbIDCategoria.Text.Trim().Length == 0 || !int.TryParse(txbIDCategoria.Text, out int idCategoria) || idCategoria <= 0)
+                if (cbCategoria.Text.Trim().Length == 0 || !int.TryParse(cbCategoria.Text, out int idCategoria) || idCategoria <= 0)
                 {
-                    Notificador.SetError(txbIDCategoria, "El campo 'ID Categoría' debe ser un valor mayor que cero");
+                    Notificador.SetError(cbCategoria, "El campo 'ID Categoría' debe ser un valor mayor que cero");
                     valido = false;
                 }
             }
@@ -76,6 +79,31 @@ namespace General.GUI
             InitializeComponent();
         }
 
+
+        private void MostrarProveedores(ComboBox cbProveedor)
+        {
+            List<Proveedores> datos = metodosProveedores.ObtenerProveedores();
+            cbProveedor.Items.Add("Selecciona una opción");
+            foreach (Proveedores dato in datos)
+            {
+                cbProveedor.Items.Add(dato.Proveedor);
+            }
+            cbProveedor.SelectedIndex = 0;
+        }
+
+        private void MostrarCategorias(ComboBox cbCategoria)
+        {
+
+            List<Categorias> datos = metodosProveedores.ObtenerCategorias();
+            cbCategoria.Items.Add("Selecciona una opción");
+            foreach (Categorias dato in datos)
+            {
+                cbCategoria.Items.Add(dato.Categoria);
+            }
+            cbCategoria.SelectedIndex = 0;
+        }
+
+
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             try
@@ -84,7 +112,7 @@ namespace General.GUI
                 {
                     // CREAR UN OBJETO A PARTIR DE LA CLASE ENTIDAD
                     // SINCRONIZAR EL OBJETO CON LA GUI
-                    Producto oProducto = new Producto();
+                    Productos oProducto = new Productos();
                     try
                     {
                         oProducto.IDProducto = Convert.ToInt32(txbProducto.Text);
@@ -94,14 +122,25 @@ namespace General.GUI
                         oProducto.IDProducto = 0;
                     }
 
+                    try
+                    {
+                        oProducto.IDProveedor = Convert.ToInt32(cbProveedor.SelectedIndex);
+                        //oProducto.IDEstado = Convert.ToInt32(cbEstados.SelectedIndex);
+                        //oProducto.IDEmpleado = Convert.ToInt32(txbIDEmpleado.Text);
+                    }
+                    catch (Exception)
+                    {
+                        oProducto.IDProveedor = 0;
+                        //oProducto.IDEstado = 0;
+                    }
                     oProducto.NombreProducto = txbProducto.Text.Trim();
                     oProducto.Stock = Convert.ToInt32(txbStock.Text);
                     oProducto.Precio = Convert.ToDouble(txbPrecio.Text);
                     oProducto.Descripcion = txbDescripcion.Text.Trim();
-                    oProducto.IDProveedor = Convert.ToInt32(txbIDProveedor.Text);
+                    oProducto.IDProveedor = Convert.ToInt32(cbProveedor.Text);
                     oProducto.FechaCreacion = Convert.ToDateTime(txbFechaFabricacion.Text);
                     oProducto.FechaVencimiento = Convert.ToDateTime(txbFechaVencimiento.Text);
-                    oProducto.IDCategoria = Convert.ToInt32(txbIDCategoria.Text);
+                    oProducto.IDCategoria = Convert.ToInt32(cbCategoria.Text);
 
                     if (string.IsNullOrWhiteSpace(txbIDProducto.Text))
                     {
@@ -141,6 +180,12 @@ namespace General.GUI
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void ProductosEdicion_Load(object sender, EventArgs e)
+        {
+            this.MostrarProveedores(cbProveedor);
+            this.MostrarCategorias(cbCategoria); 
         }
     }
 }
