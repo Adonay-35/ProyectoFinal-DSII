@@ -12,6 +12,10 @@ namespace General.CLS
 {
     internal class Usuarios
     {
+        MySqlDataReader resultado;
+        DataTable tabla = new DataTable();
+        MySqlConnection sqlConexion = new MySqlConnection();
+
         Int32 _IDUsuario;
         String _Usuario;
         String _Clave;
@@ -19,10 +23,12 @@ namespace General.CLS
         Int32 _IDEmpleado;
         Int32 _IDEstado;
 
+        /*public Usuarios(int idUsuario, string usuario)
+         {
+             this._IDUsuario = idUsuario;
+             this._Usuario = usuario;
+         }*/
 
-        MySqlDataReader resultado;
-        DataTable tabla = new DataTable();
-        MySqlConnection sqlConexion = new MySqlConnection();
 
         public int IDUsuario { get => _IDUsuario; set => _IDUsuario = value; }
         public string Usuario { get => _Usuario; set => _Usuario = value; }
@@ -30,6 +36,11 @@ namespace General.CLS
         public int IDRol { get => _IDRol; set => _IDRol = value; }
         public int IDEmpleado { get => _IDEmpleado; set => _IDEmpleado = value; }
         public int IDEstado { get => _IDEstado; set => _IDEstado = value; }
+
+        public string toString()
+        {
+            return this._IDUsuario + " - " + this._Usuario;
+        }
 
         public Boolean Insertar()
         {

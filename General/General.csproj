@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CLS\Categorias.cs" />
+    <Compile Include="CLS\Clientes.cs" />
     <Compile Include="CLS\Estados.cs" />
     <Compile Include="CLS\Productos.cs" />
     <Compile Include="CLS\Proveedores.cs" />
@@ -77,6 +78,18 @@
     <Compile Include="GUI\UsuariosGestion.Designer.cs">
       <DependentUpon>UsuariosGestion.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\VentasEdicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\VentasEdicion.Designer.cs">
+      <DependentUpon>VentasEdicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\VentasGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\VentasGestion.Designer.cs">
+      <DependentUpon>VentasGestion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -106,6 +119,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\UsuariosGestion.resx">
       <DependentUpon>UsuariosGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\VentasEdicion.resx">
+      <DependentUpon>VentasEdicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\VentasGestion.resx">
+      <DependentUpon>VentasGestion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
