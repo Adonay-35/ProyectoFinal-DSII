@@ -201,6 +201,20 @@ FROM usuarios;
 END
 
 DELIMITER $$
+CREATE PROCEDURE ObtenerClientes()
+BEGIN
+SELECT *
+FROM clientes;
+END
+
+DELIMITER $$
+CREATE PROCEDURE ObtenerProductos()
+BEGIN
+SELECT *
+FROM productos;
+END
+
+DELIMITER $$
 CREATE PROCEDURE BuscarUsuario(IN usuario varchar(200))
 BEGIN
 SELECT *

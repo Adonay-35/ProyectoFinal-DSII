@@ -125,8 +125,8 @@ namespace General.GUI
                     try
                     {
                         oProducto.IDProveedor = Convert.ToInt32(cbProveedor.SelectedIndex);
-                        //oProducto.IDEstado = Convert.ToInt32(cbEstados.SelectedIndex);
-                        //oProducto.IDEmpleado = Convert.ToInt32(txbIDEmpleado.Text);
+                        oProducto.IDCategoria = Convert.ToInt32(cbCategoria.SelectedIndex);
+                        
                     }
                     catch (Exception)
                     {
@@ -138,7 +138,7 @@ namespace General.GUI
                     oProducto.Precio = Convert.ToDouble(txbPrecio.Text);
                     oProducto.Descripcion = txbDescripcion.Text.Trim();
                     oProducto.IDProveedor = Convert.ToInt32(cbProveedor.Text);
-                    oProducto.FechaCreacion = Convert.ToDateTime(txbFechaFabricacion.Text);
+                    oProducto.FechaFabricacion = Convert.ToDateTime(txbFechaFabricacion.Text);
                     oProducto.FechaVencimiento = Convert.ToDateTime(txbFechaVencimiento.Text);
                     oProducto.IDCategoria = Convert.ToInt32(cbCategoria.Text);
 

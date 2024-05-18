@@ -10,6 +10,11 @@ namespace General.CLS
 {
     internal class Productos
     {
+
+        MySqlDataReader resultado;
+        DataTable tabla = new DataTable();
+        MySqlConnection sqlConexion = new MySqlConnection();
+
         Int32 _IDProducto;
         string _Producto;
         Int32 _Stock;
@@ -20,9 +25,12 @@ namespace General.CLS
         DateTime _FechaVencimiento;
         Int32 _IDCategoria;
 
-        MySqlDataReader resultado;
-        DataTable tabla = new DataTable();
-        MySqlConnection sqlConexion = new MySqlConnection();
+
+        /*public  Productos(int idProducto, string producto)
+        {
+            this.IDProducto = idProducto;
+            this.NombreProducto = producto;
+        }*/
 
         public Int32 IDProducto { get => _IDProducto; set => _IDProducto = value; }
         public string NombreProducto { get => _Producto; set => _Producto = value; }
@@ -30,9 +38,14 @@ namespace General.CLS
         public double Precio { get => _Precio; set => _Precio = value; }
         public string Descripcion { get => _Descripcion; set => _Descripcion = value; }
         public Int32 IDProveedor { get => _IDProveedor; set => _IDProveedor = value; }
-        public DateTime FechaCreacion { get => _FechaFabricacion; set => _FechaFabricacion = value; }
+        public DateTime FechaFabricacion { get => _FechaFabricacion; set => _FechaFabricacion = value; }
         public DateTime FechaVencimiento { get => _FechaVencimiento; set => _FechaVencimiento = value; }
         public Int32 IDCategoria { get => _IDCategoria; set => _IDCategoria = value; }
+
+        public string toString()
+        {
+            return this._IDProducto + " - " + this._Producto;
+        }
 
         public Boolean Insertar()
         {

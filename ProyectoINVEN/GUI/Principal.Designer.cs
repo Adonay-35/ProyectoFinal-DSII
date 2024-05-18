@@ -32,9 +32,11 @@
             this.generalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opcion2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.productosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ventasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.ventaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,7 +45,8 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.generalToolStripMenuItem,
-            this.productosToolStripMenuItem});
+            this.productosToolStripMenuItem,
+            this.ventasToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
@@ -64,24 +67,15 @@
             // usuariosToolStripMenuItem
             // 
             this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
             this.usuariosToolStripMenuItem.Text = "Usuarios";
             this.usuariosToolStripMenuItem.Click += new System.EventHandler(this.usuariosToolStripMenuItem_Click);
             // 
             // opcion2ToolStripMenuItem
             // 
             this.opcion2ToolStripMenuItem.Name = "opcion2ToolStripMenuItem";
-            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
             this.opcion2ToolStripMenuItem.Text = "Opcion 2";
-            // 
-            // toolStrip1
-            // 
-            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.toolStrip1.Location = new System.Drawing.Point(0, 25);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(535, 25);
-            this.toolStrip1.TabIndex = 1;
-            this.toolStrip1.Text = "toolStrip1";
             // 
             // productosToolStripMenuItem
             // 
@@ -97,6 +91,30 @@
             this.productoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.productoToolStripMenuItem.Text = "Producto";
             this.productoToolStripMenuItem.Click += new System.EventHandler(this.productoToolStripMenuItem_Click);
+            // 
+            // ventasToolStripMenuItem
+            // 
+            this.ventasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ventaToolStripMenuItem});
+            this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
+            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(53, 23);
+            this.ventasToolStripMenuItem.Text = "Ventas";
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 25);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(535, 25);
+            this.toolStrip1.TabIndex = 1;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // ventaToolStripMenuItem
+            // 
+            this.ventaToolStripMenuItem.Name = "ventaToolStripMenuItem";
+            this.ventaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ventaToolStripMenuItem.Text = "Venta";
+            this.ventaToolStripMenuItem.Click += new System.EventHandler(this.ventaToolStripMenuItem_Click);
             // 
             // Principal
             // 
@@ -128,5 +146,7 @@
         private System.Windows.Forms.ToolStripMenuItem opcion2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem productosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem productoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ventasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ventaToolStripMenuItem;
     }
 }

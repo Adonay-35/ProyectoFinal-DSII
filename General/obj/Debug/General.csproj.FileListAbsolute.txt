@@ -84,3 +84,5 @@ C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\obj\Debug\General.dll
 C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\obj\Debug\General.pdb
 C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\obj\Debug\General.GUI.ProductosEdicion.resources
 C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\obj\Debug\General.GUI.ProductosGestion.resources
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\obj\Debug\General.GUI.VentasEdicion.resources
+C:\Users\kevin\Documents\GitHub\ProyectoFinal-DSII\General\obj\Debug\General.GUI.VentasGestion.resources

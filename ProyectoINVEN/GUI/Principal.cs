@@ -49,5 +49,20 @@ namespace ProyectoCRUD.GUI
 
             }
         }
+
+        private void ventaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                General.GUI.VentasGestion f = new General.GUI.VentasGestion();
+                f.MdiParent = this;
+                f.Show();
+
+            }
+            catch (Exception)
+            {
+
+            }
+        }
     }
 }
