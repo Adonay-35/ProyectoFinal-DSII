@@ -30,9 +30,9 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.generalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.opcion1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.OpcionProveedores = new System.Windows.Forms.ToolStripMenuItem();
             this.opcion2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,12 +51,26 @@
             // generalToolStripMenuItem
             // 
             this.generalToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.opcion1ToolStripMenuItem,
+            this.OpcionProveedores,
             this.opcion2ToolStripMenuItem});
             this.generalToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.generalToolStripMenuItem.Name = "generalToolStripMenuItem";
             this.generalToolStripMenuItem.Size = new System.Drawing.Size(101, 32);
             this.generalToolStripMenuItem.Text = "General";
+            // 
+            // OpcionProveedores
+            // 
+            this.OpcionProveedores.Name = "OpcionProveedores";
+            this.OpcionProveedores.Size = new System.Drawing.Size(270, 36);
+            this.OpcionProveedores.Text = "Proveedores";
+            this.OpcionProveedores.Click += new System.EventHandler(this.OpcionProveedores_Click);
+            // 
+            // opcion2ToolStripMenuItem
+            // 
+            this.opcion2ToolStripMenuItem.Name = "opcion2ToolStripMenuItem";
+            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(270, 36);
+            this.opcion2ToolStripMenuItem.Text = "Clientes";
+            this.opcion2ToolStripMenuItem.Click += new System.EventHandler(this.opcion2ToolStripMenuItem_Click);
             // 
             // toolStrip1
             // 
@@ -66,18 +80,6 @@
             this.toolStrip1.Size = new System.Drawing.Size(802, 25);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
-            // 
-            // opcion1ToolStripMenuItem
-            // 
-            this.opcion1ToolStripMenuItem.Name = "opcion1ToolStripMenuItem";
-            this.opcion1ToolStripMenuItem.Size = new System.Drawing.Size(270, 36);
-            this.opcion1ToolStripMenuItem.Text = "Opcion 1";
-            // 
-            // opcion2ToolStripMenuItem
-            // 
-            this.opcion2ToolStripMenuItem.Name = "opcion2ToolStripMenuItem";
-            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(270, 36);
-            this.opcion2ToolStripMenuItem.Text = "Opcion 2";
             // 
             // Principal
             // 
@@ -105,7 +107,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem generalToolStripMenuItem;
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripMenuItem opcion1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem OpcionProveedores;
         private System.Windows.Forms.ToolStripMenuItem opcion2ToolStripMenuItem;
     }
 }

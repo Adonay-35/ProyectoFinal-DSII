@@ -17,19 +17,23 @@ namespace ProyectoCRUD.GUI
             InitializeComponent();
         }
 
-        private void Opcion1_Click(object sender, EventArgs e)
+        private void Principal_Load(object sender, EventArgs e)
         {
-       
+
+        }
+
+        private void OpcionProveedores_Click(object sender, EventArgs e)
+        {
+            General.GUI.ProveedoresGestion gestion = new General.GUI.ProveedoresGestion();
+            gestion.MdiParent = this;
+            gestion.Show();
         }
 
         private void opcion2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
-        }
-
-        private void Principal_Load(object sender, EventArgs e)
-        {
-
+            General.GUI.ClientesGestion gestion = new General.GUI.ClientesGestion();
+            gestion.MdiParent = this;
+            gestion.Show();
         }
     }
 }

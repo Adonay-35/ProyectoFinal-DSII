@@ -43,6 +43,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CLS\Clientes.cs" />
+    <Compile Include="CLS\Proveedores.cs" />
+    <Compile Include="GUI\ClientesEdicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ClientesEdicion.Designer.cs">
+      <DependentUpon>ClientesEdicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ClientesGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ClientesGestion.Designer.cs">
+      <DependentUpon>ClientesGestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ProveedoresEdicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ProveedoresEdicion.Designer.cs">
+      <DependentUpon>ProveedoresEdicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ProveedoresGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ProveedoresGestion.Designer.cs">
+      <DependentUpon>ProveedoresGestion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -51,9 +77,20 @@
       <Name>DataLayer</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="CLS\" />
-    <Folder Include="GUI\" />
+    <EmbeddedResource Include="GUI\ClientesEdicion.resx">
+      <DependentUpon>ClientesEdicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ClientesGestion.resx">
+      <DependentUpon>ClientesGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ProveedoresEdicion.resx">
+      <DependentUpon>ProveedoresEdicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ProveedoresGestion.resx">
+      <DependentUpon>ProveedoresGestion.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

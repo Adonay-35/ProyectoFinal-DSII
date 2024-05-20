@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Consultas.cs" />
     <Compile Include="DBConexion.cs" />
     <Compile Include="DBOperacion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

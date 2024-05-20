@@ -72,3 +72,8 @@ C:\Users\HP\Desktop\ProyectoFinal-DSII\General\obj\Debug\General.csproj.CoreComp
 C:\Users\HP\Desktop\ProyectoFinal-DSII\General\obj\Debug\General.csproj.CopyComplete
 C:\Users\HP\Desktop\ProyectoFinal-DSII\General\obj\Debug\General.dll
 C:\Users\HP\Desktop\ProyectoFinal-DSII\General\obj\Debug\General.pdb
+C:\Users\HP\Desktop\ProyectoFinal-DSII\General\obj\Debug\General.GUI.ProveedoresEdicion.resources
+C:\Users\HP\Desktop\ProyectoFinal-DSII\General\obj\Debug\General.GUI.ProveedoresGestion.resources
+C:\Users\HP\Desktop\ProyectoFinal-DSII\General\obj\Debug\General.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\ProyectoFinal-DSII\General\obj\Debug\General.GUI.ClientesEdicion.resources
+C:\Users\HP\Desktop\ProyectoFinal-DSII\General\obj\Debug\General.GUI.ClientesGestion.resources
